@@ -11,12 +11,13 @@ router.get("/", async (req, res) => {
             cpso_number: doctor.cpso_number,
             specialty: doctor.specialty,
             practice_name: doctor.practice_name,
-            address: doctor.address,
-            city: doctor.city,
-            province: doctor.province,
-            postal_code: doctor.postal_code,
             phone_number: doctor.phone_number,
             status: doctor.status,
+            address_street: doctor.address_street,
+            address_city: doctor.address_city,
+            address_province: doctor.address_province,
+            address_postal_code: doctor.address_postal_code,
+        
         }));
         res.status(200).json(doctorsList);
     } catch (error) {
@@ -34,13 +35,12 @@ router.get("/:id", async (req, res) => {
             "cpso_number",
             "specialty",
             "practice_name",
-            "address",
-            "city",
-            "province",
-            "postal_code",
-            "phone_number",
             "phone_number",
             "status",
+            "address_street",
+            "address_city",
+            "address_province",
+            "address_postal_code",
         )
         .where({ id })
         .first();
