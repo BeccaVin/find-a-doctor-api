@@ -19,7 +19,9 @@ exports.seed = async function(knex) {
       address_province: "ON",
       address_postal_code: "L5N 2V8",
      phone_number: "(905)820-8144",
-     status: "Not Accepting New Patients"
+     status: "Not Accepting New Patients",
+     latitude: 43.692810,
+     longitude: -79.463910,
    },
    {
      id: 2,
@@ -32,7 +34,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "L7A 3V4",
      phone_number: "(905) 495-2254",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.710070,
+     longitude: -79.810770,
    },
    {
      id: 3,
@@ -45,7 +49,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "L6M 1L9",
      phone_number: "(905) 257-5779",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.466860,
+     longitude: -79.744270,
    },
    {
      id: 4,
@@ -58,7 +64,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "M4K 3Z1",
      phone_number: "(416) 901-5496",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.679610,
+     longitude: -79.357860,
    },
    {
      id: 5,
@@ -71,7 +79,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "L6R 3Y5",
      phone_number: "(905) 792-0074",
-     status: "Not Accepting New Patients"
+     status: "Not Accepting New Patients",
+     latitude: 43.757050,
+     longitude: -79.762060,
    },
    {
      id: 6,
@@ -84,7 +94,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "L6Y 1M1",
      phone_number: "(905) 846 2299",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.635688,
+     longitude: -79.790189,
    },
    {
      id: 7,
@@ -97,7 +109,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "M5T 2S8",
      phone_number: "(437) 836-3158",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.653490,
+     longitude: -79.405829,
    },
    {
      id: 8,
@@ -110,7 +124,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "L6C 0M4",
      phone_number: "(905) 888-7099",
-     status: "Accepting New Patients"
+     status: "Accepting New Patients",
+     latitude: 43.8965531,
+     longitude: -79.319835,
    },
    {
      id: 9,
@@ -123,7 +139,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "M5G 1X8",
      phone_number: "(416) 813-7500",
-     status: "Not Accepting New Patients"
+     status: "Not Accepting New Patients",
+     latitude: 43.657770,
+     longitude: -79.386486,
    },
    {
      id: 10,
@@ -136,7 +154,9 @@ exports.seed = async function(knex) {
      address_province: "ON",
      address_postal_code: "M5T 2S8",
      phone_number: "(416) 603-6292",
-     status: "Not Accepting New Patients"
+     status: "Not Accepting New Patients",
+     latitude: 43.653300,
+     longitude: -79.405877,
    },
 
  ]);

@@ -17,7 +17,8 @@ router.get("/", async (req, res) => {
             address_city: doctor.address_city,
             address_province: doctor.address_province,
             address_postal_code: doctor.address_postal_code,
-        
+            latitude: doctor.latitude,
+            longitude: doctor.longitude,
         }));
         res.status(200).json(doctorsList);
     } catch (error) {
@@ -41,6 +42,8 @@ router.get("/:id", async (req, res) => {
             "address_city",
             "address_province",
             "address_postal_code",
+            "latitude",
+            "longitude",
         )
         .where({ id })
         .first();
